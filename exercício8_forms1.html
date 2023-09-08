@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8 - Bora Codar</title>
+</head>
+<body>
+    <script>
+        let numero1 = parseFloat(prompt("Digite o 1º Número : "));
+        let numero2 = parseFloat(prompt("Digite o 2º Número: "));
+        let numero3 = parseFloat(prompt("Digite o 3º Número: "));
+        let numero4 = parseFloat(prompt("Digite o 4º Número: "));
+       
+        let soma = 0
+
+        if(numero1 > 0 && numero1 < 10){
+            soma = (soma + numero1)
+        }
+
+        if(numero2 > 0 && numero2 < 10){
+            soma = (soma + numero2)
+        }
+        
+        if(numero3 > 0 && numero3 < 10){
+            soma = (soma + numero3)
+        }
+        
+        if(numero4 > 0 && numero4 < 10){
+            soma = (soma + numero4)
+        }
+
+        let media = soma/4
+
+        if(media > 5){
+            document.write("Você passou no teste!")
+        }else{
+            document.write("Tente novamente!")
+        }
+        
+
+
+        
+
+    </script>
+    
+</body>
+</html>
